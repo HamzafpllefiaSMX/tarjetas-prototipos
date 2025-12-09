@@ -1,44 +1,57 @@
-body{
-    text-align: center;
-    margin:0;
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
     text-align: center;
     color: white;
     background-color: #212121;
     width: 100%;
     padding: 1rem;
 }
-main{
+
+main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     justify-content: center;
 }
-.gallery{
+
+.gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    justify-items: center;
 }
-.gallery-item{
+
+.gallery-item {
     display: inline-block;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
-    color:black;
+    color: black;
 }
-.gallery-item img{
+
+.gallery-item img {
     height: 300px;
     width: 300px;
     display: block;
     border: 2px solid #ccc;
     border-radius: 10px;
     object-fit: contain;
-    padding: 30px;
+    padding: 0;
 }
-footer{
+
+footer {
     text-align: center;
     color: white;
     background-color: #212121;
