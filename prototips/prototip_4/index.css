@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'AvenirBlack'; /* Nombre que vas a usar */
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype'); /* Ruta al archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contingut {
+    margin-left: 70px;
+}
+h1{
+    font-family: AvenirBlack, Arial, sans-serif;
+    font-size: 3.5rem;
+}
+h2{
+    font-family: AvenirBook, Arial, sans-serif;
+    color: rgb(56, 56, 56);
+}
+p{
+    font-family: AvenirBook, Arial, sans-serif;
+    color: rgb(75, 74, 74);
+    font-size: 1.5rem;
+}
+button{
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.35s;
+    font-family: AvenirBook, Arial, sans-serif;
+}
+button:hover{
+    background-color: #424242;
+}
+.imatge{
+    margin-top: 30px;
+}
+.numero{
+    margin-top: 150px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;          
+    max-width: 1200px;    
+    margin: 40px auto;    
+    padding: 0 40px;      
+}
